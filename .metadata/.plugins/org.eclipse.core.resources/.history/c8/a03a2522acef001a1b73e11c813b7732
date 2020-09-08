@@ -1,0 +1,12 @@
+Steps:
+1) create spring boot applicaiton and add Config Server.
+2) add @EnableConfigServer in mail class.
+3) put your configuration file (application.yml) in local git location i.e. D:\MyLaboratory\STSWorkspace\pluralsite\configserver\configrepo
+   and run
+   a) git init
+   b) git add .
+   c) git commit -m "message"
+4) Edit the application.properties
+	spring.cloud.config.server.git.uri=D:/MyLaboratory/STSWorkspace/pluralsite/configserver/configrepo
+	server.port=8888
+5) run this applicaiton and use url http://localhost:8888/applicaiton/default

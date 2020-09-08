@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;scc/note&apos; to &apos;readme&apos;" description="Rename resource &apos;note&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="note" name="readme" stamp="1599332445016" updateReferences="true"/>
+</session>

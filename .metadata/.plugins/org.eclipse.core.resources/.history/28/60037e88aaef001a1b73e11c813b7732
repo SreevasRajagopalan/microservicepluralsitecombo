@@ -1,0 +1,4 @@
+Steps:
+1) create spring boot applicaiton and add Config Server.
+2) add @EnableConfigServer in mail class.
+3)  
